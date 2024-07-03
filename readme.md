@@ -59,7 +59,7 @@ Most CH32V003 dev boards label pins using their MCU names instead of Arduino nam
 
 For example, `D4` label on a board usually means `MCU Port D, Pin 4` or `PD4` for short which is actually mapped to Arduino digital pin `D14`. 
 
-Meanwhile, Arduino digital pin `D4` is mapped to `MCU Port C, Pin 2` or `PD2` for short and is often labeled on boards as `D2`.
+Meanwhile, Arduino digital pin `D4` is mapped to `MCU Port C, Pin 2` or `PC2` for short and is often labeled on boards as `C2`.
 
 Pin map for the `CH32V003F4 EVT` board variant is defined [here](https://github.com/openwch/arduino_core_ch32/blob/main/variants/CH32V00x/CH32V003F4/variant_CH32V003F4.cpp) and summarized below:
 
